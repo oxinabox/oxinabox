@@ -50,8 +50,7 @@ end
 
 
 function Base.show(io::IO, ::MIME"text/markdown", info::ProjectInfo)
-    print(io, " - ")
-    println(io, "<img src='$(info.icon)' height='20' width='20'/>")
+    print(io, "<img src='$(info.icon)' height='25' width='25'/>"  )
     print(io, "[**$(info.user)/$(info.name)**]($(info.url)): ")
     print(io, "_$(info.description)_")
     println(io)
