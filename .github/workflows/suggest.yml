@@ -5,13 +5,15 @@ jobs:
   doctests:
     name: "Make Suggestions To Readme"
     runs-on: ubuntu-latest
+
+    
     steps:
       - uses: julia-actions/setup-julia@latest
         with:
           version: 1.6
       - uses: actions/checkout@v1
-      - name: Suggest
-        run: julia --project=generate generate/main.jl
+      - run: julia --color=yes --project=generate/ -e 'import Pkg; Pkg.instantiate()'
+      - run: julia --project=generate generate/main.jl
       - uses: reviewdog/action-suggester@v1
         if: github.event_name == 'pull_request'
         with:
