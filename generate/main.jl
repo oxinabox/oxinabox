@@ -91,7 +91,7 @@ function write_readme(infos=[])
 
         linebreak()
         linebreak()
-        output(md"(nb: this list is extremely incomplete. When I find time I will remember the other 50 projects I am involved in.")
+        output(md"_(nb: this list is extremely incomplete. When I find time I will remember the other 50 projects I am involved in.)_")
         nothing
     end
 end
