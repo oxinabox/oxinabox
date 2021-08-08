@@ -27,11 +27,18 @@ function get_info(url)
     doc = read_url(url)
     get_only(sel) = only(eachmatch(sel, doc.root))
     user = text(only(eachmatch(sel"[itemprop='author']", doc.root)))
+
+    
+    description = get_only(sel"meta[name='description']")."content"
+    # strip github's cruft
+    description = replace(description, r" - GitHub - .*"=>"")
+    description = replace(description, r" Contribute to .*"=>"")
+
     return ProjectInfo(;
         url,
         user,
         name = text(only(eachmatch(sel"[itemprop='name']", doc.root))),
-        description = replace(get_only(sel"meta[name='description']")."content", r" - GitHub - .*"=>""),  # strip github's repeating itself
+        description,
         icon = get_avatar_url(user),
     )
 end
