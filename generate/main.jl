@@ -7,9 +7,13 @@ using Downloads: download
 include("piracy.jl")
 
 function main()
+    @info "starting"
+    @info "gathering data"
     repo_urls = CSV.File(joinpath(dirname(@__DIR__), "data", "repos.csv")).repo
     infos = asyncmap(get_info, repo_urls)
+    @info "writing content"
     write_readme(infos)
+    @info "done"
 end
 
 
@@ -85,6 +89,9 @@ function write_readme(infos=[])
 
         foreach(output, infos)
 
+        linebreak()
+        linebreak()
+        output(md"(nb: this list is extremely incomplete. When I find time I will remember the other 50 projects I am involved in.")
         nothing
     end
 end

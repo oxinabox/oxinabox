@@ -24,3 +24,10 @@ Below you will find a list of projects I am involved in, that I think are partic
  - <a href='https://github.com/JuliaDiff' title='JuliaDiff'> <img src='https://avatars.githubusercontent.com/u/7750915?s=200&v=4' height='20' width='20'/></a> [**JuliaDiff/ChainRulesTestUtils.jl**](https://github.com/JuliaDiff/ChainRulesTestUtils.jl/): _Utilities for testing custom AD primitives._
  - <a href='https://github.com/JuliaDiff' title='JuliaDiff'> <img src='https://avatars.githubusercontent.com/u/7750915?s=200&v=4' height='20' width='20'/></a> [**JuliaDiff/ChainRulesOverloadGeneration.jl**](https://github.com/JuliaDiff/ChainRulesOverloadGeneration.jl/): _Tools to help generate operator overloads based on ChainRules_
  - <a href='https://github.com/JuliaCollections' title='JuliaCollections'> <img src='https://avatars.githubusercontent.com/u/24502254?s=200&v=4' height='20' width='20'/></a> [**JuliaCollections/DataStructures.jl**](https://github.com/JuliaCollections/DataStructures.jl/): _Julia implementation of Data structures._
+
+
+
+
+
+
+(nb: this list is extremely incomplete. When I find time I will remember the other 50 projects I am involved in.
