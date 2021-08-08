@@ -74,8 +74,8 @@ function write_readme(infos=[])
         linebreak() = println(fh, "\n\n")
 
         output(md"# 🐂 Hi Hi, I am Lyndon")
-        output(md"Feel encouraged to reach out to me. I like people.\\")
-        output(md"I am very contactable online. I am sure you can find me.\\")
+        output(md"Feel encouraged to reach out to me. I like people.")
+        output(md"I am very contactable online. I am sure you can find me.")
         linebreak()
         
 
