@@ -1,6 +1,6 @@
 # 🐂 Hi Hi, I am Lyndon
-Feel encouraged to reach out to me. I like people.\
-I am very contactable online. I am sure you can find me.\
+Feel encouraged to reach out to me. I like people.
+I am very contactable online. I am sure you can find me.
 
 
 
