@@ -25,7 +25,7 @@ Below you will find a list of projects I am involved in, that I think are partic
  - <a href='https://github.com/JuliaCollections' title='JuliaCollections'> <img src='https://avatars.githubusercontent.com/u/24502254?s=200&v=4' height='20' width='20'/></a> [**JuliaCollections/DataStructures.jl**](https://github.com/JuliaCollections/DataStructures.jl/): _Julia implementation of Data structures._
  - <a href='https://github.com/invenia' title='invenia'> <img src='https://avatars.githubusercontent.com/u/5262440?s=200&v=4' height='20' width='20'/></a> [**invenia/ExprTools.jl**](https://github.com/invenia/ExprTools.jl/): _Light-weight expression manipulation tools._
  - <a href='https://github.com/invenia' title='invenia'> <img src='https://avatars.githubusercontent.com/u/5262440?s=200&v=4' height='20' width='20'/></a> [**invenia/NamedDims.jl**](https://github.com/invenia/NamedDims.jl): _For working with dimensions of arrays by name._
- - <a href='https://github.com/invenia' title='invenia'> <img src='https://avatars.githubusercontent.com/u/5262440?s=200&v=4' height='20' width='20'/></a> [**invenia/Nabla.jl**](https://github.com/invenia/Nabla.jl): _Contribute to invenia/Nabla.jl development by creating an account on GitHub._
+ - <a href='https://github.com/invenia' title='invenia'> <img src='https://avatars.githubusercontent.com/u/5262440?s=200&v=4' height='20' width='20'/></a> [**invenia/Nabla.jl**](https://github.com/invenia/Nabla.jl): _A operator overloading, tape-based, reverse-mode AD_
  - <a href='https://github.com/invenia' title='invenia'> <img src='https://avatars.githubusercontent.com/u/5262440?s=200&v=4' height='20' width='20'/></a> [**invenia/JLSO.jl**](https://github.com/invenia/JLSO.jl): _Julia Serialized Object (JLSO) file format for storing checkpoint data._
  - <a href='https://github.com/oxinabox' title='oxinabox'> <img src='https://avatars.githubusercontent.com/u/5127634?s=64&v=4' height='20' width='20'/></a> [**oxinabox/ProjectManagement.jl**](https://github.com/oxinabox/ProjectManagement.jl): _Project Management tools, with a particular focus on PERT charts_
  - <a href='https://github.com/oxinabox' title='oxinabox'> <img src='https://avatars.githubusercontent.com/u/5127634?s=64&v=4' height='20' width='20'/></a> [**oxinabox/LayeredLayouts.jl**](https://github.com/oxinabox/LayeredLayouts.jl/): _Layered Layout Algorithms for Directed Acyclic Graphs_
@@ -39,3 +39,7 @@ Below you will find a list of projects I am involved in, that I think are partic
 
 
 *(nb: this list is extremely incomplete. When I find time I will remember the other 50 projects I am involved in.)*
+
+
+
+You can find the script that generates this profile [here](https://github.com/oxinabox/oxinabox), it's pretty fun little webscrapy markdown generaty thing.
