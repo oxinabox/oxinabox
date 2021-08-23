@@ -37,6 +37,7 @@ function get_info(url)
     # strip github's cruft
     description = replace(description, r" - GitHub - .*"=>"")
     description = replace(description, r" Contribute to .*"=>"")
+    description = strip(description)
 
     return ProjectInfo(;
         url,
