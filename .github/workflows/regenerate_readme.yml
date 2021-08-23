@@ -1,6 +1,5 @@
 name: regenerate_readme
-on:
-  pull_request:
+on: [push, pull_request]
 jobs:
   regen:
     name: "Regenerate The README.md"
