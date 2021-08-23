@@ -92,6 +92,8 @@ function write_readme(infos=[])
         linebreak()
         linebreak()
         output(md"_(nb: this list is extremely incomplete. When I find time I will remember the other 50 projects I am involved in.)_")
+        linebreak()
+        output(md"You can find the script that generates this profile [here](https://github.com/oxinabox/oxinabox), it's pretty fun little webscrapy markdown generaty thing.")
         nothing
     end
 end
