@@ -6,6 +6,8 @@ https://github.com/JuliaDiff/ChainRulesCore.jl/
 https://github.com/JuliaDiff/ChainRules.jl/
 https://github.com/JuliaDiff/ChainRulesTestUtils.jl/
 https://github.com/JuliaDiff/ChainRulesOverloadGeneration.jl/
+https://github.com/JuliaDiff/FiniteDifferences.jl
+https://github.com/FluxML/Zygote.jl/
 https://github.com/JuliaCollections/DataStructures.jl/
 https://github.com/JuliaCollections/OrderedCollections.jl
 https://github.com/JuliaText/CorpusLoaders.jl
@@ -17,9 +19,11 @@ https://github.com/invenia/NamedDims.jl
 https://github.com/invenia/Nabla.jl
 https://github.com/invenia/JLSO.jl
 https://github.com/JuliaGraphics/NamedColors.jl
+https://github.com/oxinabox/Tricks.jl
 https://github.com/oxinabox/ProjectManagement.jl
 https://github.com/oxinabox/LayeredLayouts.jl/
 https://github.com/oxinabox/MultiResolutionIterators.jl/
+https://github.com/oxinabox/ExpectationStubs.jl
 https://github.com/google-research/dex-lang/
 https://github.com/SciML/ColPrac
 https://github.com/invenia/BlueStyle

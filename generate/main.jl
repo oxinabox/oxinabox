@@ -1,3 +1,5 @@
+using Pkg: Pkg
+Pkg.activate(@__DIR__)
 using Cascadia
 using Gumbo
 using CSV
@@ -8,14 +10,82 @@ include("piracy.jl")
 
 function main()
     @info "starting"
-    @info "gathering data"
-    repo_urls = CSV.File(joinpath(dirname(@__DIR__), "data", "repos.csv")).repo
-    infos = asyncmap(get_info, repo_urls)
-    @info "writing content"
-    write_readme(infos)
+    open(joinpath(dirname(@__DIR__), "README.md"), "w") do fh
+        println(
+            fh,
+            """
+            # 🐂 Hi Hi, I am Lyndon
+            Feel encouraged to reach out to me. I like people.
+            I am very contactable online. I am sure you can find me.
+
+            GitHub doesn't make it easy to showcase all the projects I am involved in.
+            Especially with so many being inside various github orgs.
+            So I am using this profile README.md to experiment with providing something better.
+
+            ***Note 1:** these lists are incomplete. When I find time I will remember the other 50 projects I am involved in.)*
+            ***Note 2:** this is just a list of projects I am involved in. A project listed here just means I think my involvement is in some sense significant. It doesn't mean I am running the project or even have commit rights.*
+            """
+        )
+        write_section(fh, "main")
+        println(fh)
+
+        println(
+            fh,
+            """
+            ## Dead-ends
+            These are projects that I have spent a fair bit of time working on, but that I have now concluded are dead-ends.
+            That they are not the way to continue to advance to solve this problem.
+            They probably still function and work usefully.
+            But they are deprecated and have other alternatives recommended.
+            Not every project that I have abandonned is here, just ones that went a long way.
+            You should ask me about why I think these are dead-ends, they are interesting things or they wouldn't have gotten this far.
+            """
+        )
+        write_section(fh, "deadends")
+        println(fh)
+
+        println(
+            fh,
+            """
+
+            ## Experiments and Early Ideas
+            These are projects that are in an early stage, and exist more to prove a point.
+            They may or may not be usable.
+            I may or may not be actively working on them at this point in time.
+            I might not have touched them in years.
+            Regardless of this they are very cool ideas (in my very biased opinion).
+            You should ask me about them.
+            """
+        )
+        write_section(fh, "experiments")
+
+        println(
+            fh, 
+            """
+
+            ## Conclusion
+            I hope this has been useful to you to see what I have been up to.
+            Do reach out to me, as I said, I love talking to other humans.
+
+            You can find the script that generates this profile [here](https://github.com/oxinabox/oxinabox).
+            It's pretty fun little webscrapy markdown generaty thing.
+            """
+        )
+    end
+
     @info "done"
 end
 
+function write_section(fh, section_name)
+    @info "gathering data: $section_name"
+    repo_urls = CSV.File(joinpath(dirname(@__DIR__), "data", "$section_name.csv")).repo
+    infos = asyncmap(get_info, repo_urls)
+    @info "writing content: $section_name"
+    for project_info in infos
+        show(fh, MIME("text/markdown"), project_info)
+    end
+    @info "done: $section_name"
+end
 
 Base.@kwdef struct ProjectInfo
     url
@@ -69,35 +139,7 @@ function Base.show(io::IO, ::MIME"text/markdown", info::ProjectInfo)
     println(io)
 end
 
-function write_readme(infos=[])
-    open(joinpath(dirname(@__DIR__), "README.md"), "w") do fh
-        output(x) = show(fh, MIME("text/markdown"), x)
-        linebreak() = println(fh, "\n\n")
 
-        output(md"# 🐂 Hi Hi, I am Lyndon")
-        output(md"Feel encouraged to reach out to me. I like people.")
-        output(md"I am very contactable online. I am sure you can find me.")
-        linebreak()
-        
-
-        output(md"GitHub doesn't make it easy to showcase all the projects I am involved in.")
-        output(md"Especially with so many being inside various github orgs.")
-        output(md"So I am using this profile README.md to experiment with providing something better")
-        linebreak()
-        output(md"Below you will find a list of projects I am involved in, that I think are particularly cool.")
-        output(md"*Note that it is incomplete, and this is currently an experiment.*")
-        linebreak()
-
-        foreach(output, infos)
-
-        linebreak()
-        linebreak()
-        output(md"_(nb: this list is extremely incomplete. When I find time I will remember the other 50 projects I am involved in.)_")
-        linebreak()
-        output(md"You can find the script that generates this profile [here](https://github.com/oxinabox/oxinabox), it's pretty fun little webscrapy markdown generaty thing.")
-        nothing
-    end
-end
 
 
 main()
