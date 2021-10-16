@@ -60,6 +60,7 @@ You should ask me about them.
 
  - <a href='https://github.com/oxinabox' title='oxinabox'> <img src='https://avatars.githubusercontent.com/u/5127634?s=64&v=4' height='20' width='20'/></a> [**oxinabox/Arborist.jl**](https://github.com/oxinabox/Arborist.jl): _🌳 An arborist operates on trees. Graft your Julia code!_
  - <a href='https://github.com/oxinabox' title='oxinabox'> <img src='https://avatars.githubusercontent.com/u/5127634?s=64&v=4' height='20' width='20'/></a> [**oxinabox/MixedModeDebugger.jl**](https://github.com/oxinabox/MixedModeDebugger.jl): _A Julia Debugger that works with mixed compiled and interpretted mode for performance_
+ - <a href='https://github.com/oxinabox' title='oxinabox'> <img src='https://avatars.githubusercontent.com/u/5127634?s=64&v=4' height='20' width='20'/></a> [**oxinabox/AutoPreallocation.jl**](https://github.com/oxinabox/AutoPreallocation.jl): _What if your code allocated less? Remember what memory we needed last time and use it again every time after_
 
 ## Conclusion
 I hope this has been useful to you to see what I have been up to.
