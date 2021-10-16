@@ -7,7 +7,7 @@ Especially with so many being inside various github orgs.
 So I am using this profile README.md to experiment with providing something better.
 
 ***Note 1:** these lists are incomplete. When I find time I will remember the other 50 projects I am involved in.*\
-***Note 2:** this is just a list of projects I am involved in. A project listed here just means I think my involvement is in some sense significant. It doesn't mean I own the project, nor that I am running it, nor even that I have commit rights. In the majority of cases I do, but check each.*\
+***Note 2:** this is just a list of projects I am involved in. A project listed here just means I think my involvement is in some sense significant. It doesn't mean I am running the project or even have commit rights.*
 
  - <a href='https://github.com/JuliaTesting' title='JuliaTesting'> <img src='https://avatars.githubusercontent.com/u/67037081?s=200&v=4' height='20' width='20'/></a> [**JuliaTesting/TestEnv.jl**](https://github.com/JuliaTesting/TestEnv.jl): _Activate your test enviroment, so you can use your test dependencies in the REPL_
  - <a href='https://github.com/JuliaTesting' title='JuliaTesting'> <img src='https://avatars.githubusercontent.com/u/67037081?s=200&v=4' height='20' width='20'/></a> [**JuliaTesting/ReferenceTests.jl**](https://github.com/JuliaTesting/ReferenceTests.jl): _Utility package for comparing data against reference files_
