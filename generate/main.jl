@@ -81,7 +81,7 @@ end
 function write_section(fh, section_name)
     @info "gathering data: $section_name"
     repo_urls = CSV.File(joinpath(dirname(@__DIR__), "data", "$section_name.csv")).repo
-    infos = asyncmap(get_info, repo_urls)
+    infos = map(get_info, repo_urls)  # could use asyncmap but that gives HTTP 429 error (too many requests)
     @info "writing content: $section_name"
     for project_info in infos
         show(fh, MIME("text/markdown"), project_info)
