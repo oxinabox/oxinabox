@@ -1,6 +1,8 @@
-# 🐂 Hi Hi, I am Lyndon
+# 🐂 Hi Hi, I am Frames 💃💕
 Feel encouraged to reach out to me. I like people.
 I am very contactable online. I am sure you can find me.
+Some places you may find me listed under my old (pre-🏳️‍⚧️) name: _Lyndon_ (🪦).
+Sorry about that; please let me know if you find some so I can get it fixed.
 
 GitHub doesn't make it easy to showcase all the projects I am involved in.
 Especially with so many being inside various github orgs.
@@ -17,7 +19,7 @@ So I am using this profile README.md to experiment with providing something bett
  - <a href='https://github.com/JuliaDiff' title='JuliaDiff'> <img src='https://avatars.githubusercontent.com/u/7750915?s=200&v=4' height='20' width='20'/></a> [**JuliaDiff/ChainRulesTestUtils.jl**](https://github.com/JuliaDiff/ChainRulesTestUtils.jl/): _Utilities for testing custom AD primitives._
  - <a href='https://github.com/JuliaDiff' title='JuliaDiff'> <img src='https://avatars.githubusercontent.com/u/7750915?s=200&v=4' height='20' width='20'/></a> [**JuliaDiff/ChainRulesOverloadGeneration.jl**](https://github.com/JuliaDiff/ChainRulesOverloadGeneration.jl/): _Tools to help generate operator overloads based on ChainRules_
  - <a href='https://github.com/JuliaDiff' title='JuliaDiff'> <img src='https://avatars.githubusercontent.com/u/7750915?s=200&v=4' height='20' width='20'/></a> [**JuliaDiff/FiniteDifferences.jl**](https://github.com/JuliaDiff/FiniteDifferences.jl): _High accuracy derivatives, estimated via numerical finite differences (formerly FDM.jl)_
- - <a href='https://github.com/FluxML' title='FluxML'> <img src='https://avatars.githubusercontent.com/u/26222520?s=200&v=4' height='20' width='20'/></a> [**FluxML/Zygote.jl**](https://github.com/FluxML/Zygote.jl/): _Intimate Affection Auditor._
+ - <a href='https://github.com/FluxML' title='FluxML'> <img src='https://avatars.githubusercontent.com/u/26222520?s=200&v=4' height='20' width='20'/></a> [**FluxML/Zygote.jl**](https://github.com/FluxML/Zygote.jl/): _21st century AD._
  - <a href='https://github.com/JuliaCollections' title='JuliaCollections'> <img src='https://avatars.githubusercontent.com/u/24502254?s=200&v=4' height='20' width='20'/></a> [**JuliaCollections/DataStructures.jl**](https://github.com/JuliaCollections/DataStructures.jl/): _Julia implementation of Data structures._
  - <a href='https://github.com/JuliaCollections' title='JuliaCollections'> <img src='https://avatars.githubusercontent.com/u/24502254?s=200&v=4' height='20' width='20'/></a> [**JuliaCollections/OrderedCollections.jl**](https://github.com/JuliaCollections/OrderedCollections.jl): _Julia implementation of associative containers that preserve insertion order_
  - <a href='https://github.com/JuliaText' title='JuliaText'> <img src='https://avatars.githubusercontent.com/u/6527714?s=200&v=4' height='20' width='20'/></a> [**JuliaText/CorpusLoaders.jl**](https://github.com/JuliaText/CorpusLoaders.jl): _A variety of loaders for various NLP corpora._
