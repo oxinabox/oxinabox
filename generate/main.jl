@@ -14,9 +14,11 @@ function main()
         println(
             fh,
             """
-            # 🐂 Hi Hi, I am Lyndon
+            # 🐂 Hi Hi, I am Frames 💃💕
             Feel encouraged to reach out to me. I like people.
             I am very contactable online. I am sure you can find me.
+            Some places you may find me listed under my old (pre-🏳️‍⚧️) name: _Lyndon_ (🪦).
+            Sorry about that; please let me know if you find some so I can get it fixed.
 
             GitHub doesn't make it easy to showcase all the projects I am involved in.
             Especially with so many being inside various github orgs.
