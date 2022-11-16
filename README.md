@@ -51,6 +51,7 @@ You should ask me about why I think these are dead-ends, they are interesting th
 
  - <a href='https://github.com/oxinabox' title='oxinabox'> <img src='https://avatars.githubusercontent.com/u/5127634?s=64&v=4' height='20' width='20'/></a> [**oxinabox/MagneticReadHead.jl**](https://github.com/oxinabox/MagneticReadHead.jl/): _A cassette-based debugger | The Other Debugger._
  - <a href='https://github.com/malmaud' title='malmaud'> <img src='https://avatars.githubusercontent.com/u/987837?s=64&v=4' height='20' width='20'/></a> [**malmaud/TensorFlow.jl**](https://github.com/malmaud/TensorFlow.jl): _A Julia wrapper for TensorFlow._
+ - <a href='https://github.com/oxinabox' title='oxinabox'> <img src='https://avatars.githubusercontent.com/u/5127634?s=64&v=4' height='20' width='20'/></a> [**oxinabox/Expr2LaTeX.jl**](https://github.com/oxinabox/Expr2LaTeX.jl): _Take a julia `Expr` and render it as LaTeX. Deprecated in favour of https://github.com/korsbo/Latexify.jl_
 
 
 ## Experiments and Early Ideas
