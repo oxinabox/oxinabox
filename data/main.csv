@@ -1,4 +1,9 @@
 repo
+https://github.com/CedarEDA/CedarEDA.jl
+https://github.com/CedarEDA/CedarSim.jl
+https://github.com/CedarEDA/DAECompiler.jl
+https://github.com/JuliaComputing/VectorPrisms.jl
+https://github.com/JuliaComputing/CentralizedCaches.jl
 https://github.com/JuliaTesting/TestEnv.jl
 https://github.com/JuliaTesting/ReferenceTests.jl
 https://github.com/JuliaTesting/TestReports.jl
@@ -26,8 +31,6 @@ https://github.com/invenia/NamedDims.jl
 https://github.com/invenia/Nabla.jl
 https://github.com/invenia/JLSO.jl
 https://github.com/invenia/PDMatsExtras.jl
-https://github.com/JuliaComputing/VectorPrisms.jl
-https://github.com/JuliaComputing/CentralizedCaches.jl
 https://github.com/oxinabox/Tricks.jl
 https://github.com/oxinabox/ProjectManagement.jl
 https://github.com/oxinabox/LayeredLayouts.jl/
