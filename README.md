@@ -9,7 +9,7 @@ Especially with so many being inside various github orgs.
 So I am using this profile README.md to experiment with providing something better.
 
 ***Note 1:** these lists are incomplete. When I find time I will remember the other 50 projects I am involved in.*\
-***Note 2:** this is just a list of projects I am involved in. A project listed here just means I think my involvement is in some sense significant. It doesn't mean I am running the project or even have commit rights.*
+***Note 2:** this is just a list of projects I am involved in. A project listed here just means my involvement is in some sense significant. It doesn't mean I am the sole or even lead maintainer.*
 
  - <a href='https://github.com/CedarEDA' title='CedarEDA'> <img src='https://avatars.githubusercontent.com/u/95398343?s=200&v=4' height='20' width='20'/></a> [**CedarEDA/CedarEDA.jl**](https://github.com/CedarEDA/CedarEDA.jl): _Top level CedarEDA integration package._
  - <a href='https://github.com/CedarEDA' title='CedarEDA'> <img src='https://avatars.githubusercontent.com/u/95398343?s=200&v=4' height='20' width='20'/></a> [**CedarEDA/CedarSim.jl**](https://github.com/CedarEDA/CedarSim.jl): _Analog Circuit Simulator._
