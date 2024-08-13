@@ -1,8 +1,6 @@
 # 🐂 Hi Hi, I am Frames 💃💕
 Feel encouraged to reach out to me. I like people.
 I am very contactable online. I am sure you can find me.
-Some places you may find me listed under my old name.
-Sorry about that; please let me know if you find some so I can get it fixed.
 
 GitHub doesn't make it easy to showcase all the projects I am involved in.
 Especially with so many being inside various github orgs.
@@ -20,7 +18,7 @@ So I am using this profile README.md to experiment with providing something bett
  - <a href='https://github.com/JuliaTesting' title='JuliaTesting'> <img src='https://avatars.githubusercontent.com/u/67037081?s=200&v=4' height='20' width='20'/></a> [**JuliaTesting/ReferenceTests.jl**](https://github.com/JuliaTesting/ReferenceTests.jl): _Utility package for comparing data against reference files - JuliaTesting/ReferenceTests.jl_
  - <a href='https://github.com/JuliaTesting' title='JuliaTesting'> <img src='https://avatars.githubusercontent.com/u/67037081?s=200&v=4' height='20' width='20'/></a> [**JuliaTesting/TestReports.jl**](https://github.com/JuliaTesting/TestReports.jl): _Making JUnit style XML reports for your julia tests - JuliaTesting/TestReports.jl_
  - <a href='https://github.com/JuliaTesting' title='JuliaTesting'> <img src='https://avatars.githubusercontent.com/u/67037081?s=200&v=4' height='20' width='20'/></a> [**JuliaTesting/MetaTesting.jl**](https://github.com/JuliaTesting/MetaTesting.jl): _Test the testers._
- - <a href='https://github.com/JuliaTesting' title='JuliaTesting'> <img src='https://avatars.githubusercontent.com/u/67037081?s=200&v=4' height='20' width='20'/></a> [**JuliaTesting/Mocking.jl**](https://github.com/JuliaTesting/Mocking.jl): _Allows Julia function calls to be temporarily overloaded for purpose of testing - JuliaTesting/Mocking.jl_
+ - <a href='https://github.com/JuliaTesting' title='JuliaTesting'> <img src='https://avatars.githubusercontent.com/u/67037081?s=200&v=4' height='20' width='20'/></a> [**JuliaTesting/Mocking.jl**](https://github.com/JuliaTesting/Mocking.jl): _Allows Julia function calls to be temporarily overloaded for the purpose of testing - JuliaTesting/Mocking.jl_
  - <a href='https://github.com/JuliaLogging' title='JuliaLogging'> <img src='https://avatars.githubusercontent.com/u/86418567?s=200&v=4' height='20' width='20'/></a> [**JuliaLogging/LoggingExtras.jl**](https://github.com/JuliaLogging/LoggingExtras.jl): _Composable Loggers  for the Julia Logging StdLib._
  - <a href='https://github.com/JuliaDiff' title='JuliaDiff'> <img src='https://avatars.githubusercontent.com/u/7750915?s=200&v=4' height='20' width='20'/></a> [**JuliaDiff/ChainRulesCore.jl**](https://github.com/JuliaDiff/ChainRulesCore.jl/): _AD-backend agnostic system defining custom forward and reverse mode rules. This is the light weight core to allow you to define rules for your functions in your packages, without depending on any particular AD system. - JuliaDiff/ChainRulesCore.jl_
  - <a href='https://github.com/JuliaDiff' title='JuliaDiff'> <img src='https://avatars.githubusercontent.com/u/7750915?s=200&v=4' height='20' width='20'/></a> [**JuliaDiff/ChainRules.jl**](https://github.com/JuliaDiff/ChainRules.jl/): _forward and reverse mode automatic differentiation primitives for Julia Base + StdLibs - JuliaDiff/ChainRules.jl_
